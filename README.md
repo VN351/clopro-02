@@ -66,9 +66,9 @@ resource "yandex_storage_object" "image" {
 }
 ```
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-1.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-1.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-2.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-2.jpg)
 
 2. Создать группу ВМ в public подсети фиксированного размера с шаблоном LAMP и веб-страницей, содержащей ссылку на картинку из бакета:
 
@@ -229,15 +229,15 @@ ssh_authorized_keys:
   - ${ssh_key}
 ```
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-3.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-3.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-4.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-4.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-5.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-5.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-6.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-6.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-7.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-7.jpg)
 
 
 3. Подключить группу к сетевому балансировщику:
@@ -397,13 +397,13 @@ variable "ssh_username" {
   default     = "vlad"
 }
 ```
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-8.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-8.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-9.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-9.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-10.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-10.jpg)
 
-[alt text](https://github.com/VN351/clopro-02/raw/main/images/1-11.jpg)
+![alt text](https://github.com/VN351/clopro-02/raw/main/images/1-11.jpg)
 
 ---
 ## Задание 2*. AWS (задание со звёздочкой)
