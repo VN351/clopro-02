@@ -65,6 +65,7 @@ resource "yandex_storage_object" "image" {
   depends_on = [yandex_storage_bucket.images]
 }
 ```
+
 [alt text](https://github.com/VN351/clopro-02/raw/main/images/1-1.jpg)
 
 [alt text](https://github.com/VN351/clopro-02/raw/main/images/1-2.jpg)
@@ -172,7 +173,7 @@ resource "yandex_compute_instance_group" "lamp_group" {
 
 index.html.tmpl
 
-```tmpl
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -227,6 +228,7 @@ runcmd:
 ssh_authorized_keys:
   - ${ssh_key}
 ```
+
 [alt text](https://github.com/VN351/clopro-02/raw/main/images/1-3.jpg)
 
 [alt text](https://github.com/VN351/clopro-02/raw/main/images/1-4.jpg)
